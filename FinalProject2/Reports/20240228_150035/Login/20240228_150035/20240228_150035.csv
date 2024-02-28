@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 121.0.0.0,,,28-02-2024 15:00:45,28-02-2024 15:01:04,19.440s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC-001_loginWithNumber,Chrome 121.0.0.0,,,28-02-2024 15:00:45,28-02-2024 15:00:55,9.919s,PASSED
+openBrowser(siteURL),Chrome 121.0.0.0,,,28-02-2024 15:00:45,28-02-2024 15:00:49,3.956s,PASSED
+"username = ""coba123""",Chrome 121.0.0.0,,,28-02-2024 15:00:49,28-02-2024 15:00:49,0.005s,PASSED
+"password = ""passwordcoba123""",Chrome 121.0.0.0,,,28-02-2024 15:00:49,28-02-2024 15:00:49,0.003s,PASSED
+"callTestCase(findTestCase(""Test Cases/Common Test Case/login""), [""Username"":username, ""Password"":password], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,28-02-2024 15:00:49,28-02-2024 15:00:53,4.052s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/buttonAddAccount""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:00:53,28-02-2024 15:00:54,0.339s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/buttonMakePayment""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:00:54,28-02-2024 15:00:54,0.302s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/labelFinancialOverview""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:00:54,28-02-2024 15:00:54,0.363s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/labelRecentTransactions""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:00:54,28-02-2024 15:00:54,0.313s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,28-02-2024 15:00:54,28-02-2024 15:00:55,0.208s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC-002_loginWithSpecialCharacter,Chrome 121.0.0.0,,,28-02-2024 15:00:55,28-02-2024 15:01:04,9.260s,PASSED
+openBrowser(siteURL),Chrome 121.0.0.0,,,28-02-2024 15:00:55,28-02-2024 15:00:59,3.947s,PASSED
+"username = ""coba123!$%^&""",Chrome 121.0.0.0,,,28-02-2024 15:00:59,28-02-2024 15:00:59,0.003s,PASSED
+"password = ""passwordcoba123!$%^&""",Chrome 121.0.0.0,,,28-02-2024 15:00:59,28-02-2024 15:00:59,0.003s,PASSED
+"callTestCase(findTestCase(""Test Cases/Common Test Case/login""), [""Username"":username, ""Password"":password], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,28-02-2024 15:00:59,28-02-2024 15:01:02,3.585s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/buttonAddAccount""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:01:02,28-02-2024 15:01:03,0.333s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/buttonMakePayment""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:01:03,28-02-2024 15:01:03,0.328s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/labelFinancialOverview""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:01:03,28-02-2024 15:01:03,0.308s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/labelRecentTransactions""), 5, STOP_ON_FAILURE))",Chrome 121.0.0.0,,,28-02-2024 15:01:03,28-02-2024 15:01:04,0.327s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,28-02-2024 15:01:04,28-02-2024 15:01:04,0.267s,PASSED

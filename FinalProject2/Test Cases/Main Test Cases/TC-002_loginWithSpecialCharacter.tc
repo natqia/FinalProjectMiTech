@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-002_loginWithSpecialCharacter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6611f89-cbcd-401e-aaea-b9c49cfa334d</testCaseGuid>
+</TestCaseEntity>

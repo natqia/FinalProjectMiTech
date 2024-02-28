@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonSignIn</name>
+   <tag></tag>
+   <elementGuidId>3221b7ec-ed80-47be-9427-afe6667a8713</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='log-in']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#log-in</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'log-in']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>07bd0e46-3ed7-436f-87db-2cedd6e201db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>log-in</value>
+      <webElementGuid>a33a6d03-9014-41c9-b287-2f011d456ca3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>13ec9f2c-c89d-45ee-8fb6-8c53a23c8ecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/app.html</value>
+      <webElementGuid>a81cbd57-6028-4be8-afc0-7a26b9b9ee9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>45e07714-011a-4251-8599-95e47b9d38e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;log-in&quot;)</value>
+      <webElementGuid>97ea94f6-0b5a-49ce-b7cd-848630629daf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='log-in']</value>
+      <webElementGuid>04155d01-1697-49f1-8bb3-9382093d7898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign in')]</value>
+      <webElementGuid>4d84dd80-aeae-4aa9-84ed-c7c91477becb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::a[1]</value>
+      <webElementGuid>51ceada4-17f0-4217-9c68-1f891d76d4fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::a[1]</value>
+      <webElementGuid>4e55fb39-a733-4720-9cc5-bca5ffba777f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/preceding::a[1]</value>
+      <webElementGuid>41b2932b-209d-46f0-b0bd-fdb92f81cdc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
+      <webElementGuid>a96c8434-41a3-483c-97ed-fe7dc3451422</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/app.html')]</value>
+      <webElementGuid>a5111a9e-c7a3-4564-9e40-8313762f62ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>d4113033-4bd8-42d5-9a0b-c005ed4e57d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'log-in' and @href = '/app.html' and (text() = 'Sign in' or . = 'Sign in')]</value>
+      <webElementGuid>c705bf21-849f-4c74-86dc-a1783447c0a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

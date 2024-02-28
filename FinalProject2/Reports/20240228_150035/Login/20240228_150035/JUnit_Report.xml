@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="19.44" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="19.44" skipped="0" timestamp="28-02-2024T15:00:45" hostname="ASUS - LAPTOP-EAT396DD.mshome.net" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\.MiTech Bootcamp\\FinalProject\\finalProject2\\Reports\\20240228_150035\\Login\\20240228_150035"/>
+         <property name="logFiles" value="D:\\.MiTech Bootcamp\\FinalProject\\finalProject2\\Reports\\20240228_150035\\Login\\20240228_150035\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-EAT396DD.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.32.1"/>
+         <property name="sessionId" value="2895cc202fc86afb731d04d5e6a5fd01"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC-001_loginWithNumber" time="9.919" classname="Test Cases/Main Test Cases/TC-001_loginWithNumber" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:00:45 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC-001_loginWithNumber: Test Cases/Main Test Cases/TC-001_loginWithNumber
+
+28-02-2024T15:00:45 - [TEST_STEP][PASSED] - openBrowser(siteURL): Browser is opened with url: 'https://demo.applitools.com/'
+
+28-02-2024T15:00:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2024T15:00:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:00:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.applitools.com/'
+
+28-02-2024T15:00:49 - [TEST_STEP][PASSED] - username = "coba123": null
+
+28-02-2024T15:00:49 - [TEST_STEP][PASSED] - password = "passwordcoba123": null
+
+28-02-2024T15:00:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Common Test Case/login"), ["Username":username, "Password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Case/login' successfully
+
+28-02-2024T15:00:49 - [TEST_CASE][PASSED] - Test Cases/Common Test Case/login: Test Cases/Common Test Case/login
+
+28-02-2024T15:00:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME Demo App by Applitools/buttonSignIn"), 5, STOP_ON_FAILURE)): sudah b
+
+28-02-2024T15:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME Demo App by Applitools/buttonSignIn' is present
+
+28-02-2024T15:00:50 - [MESSAGE][INFO] - sudah b
+
+28-02-2024T15:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/inputUsername"), Username): Text 'coba123' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputUsername'
+
+28-02-2024T15:00:51 - [MESSAGE][PASSED] - Text 'coba123' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputUsername'
+
+28-02-2024T15:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/inputPassword"), Password): Text 'passwordcoba123' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputPassword'
+
+28-02-2024T15:00:51 - [MESSAGE][PASSED] - Text 'passwordcoba123' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputPassword'
+
+28-02-2024T15:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME Demo App by Applitools/buttonSignIn")): Object: 'Object Repository/Page_ACME Demo App by Applitools/buttonSignIn' is clicked on
+
+28-02-2024T15:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME Demo App by Applitools/buttonSignIn' is clicked on
+
+28-02-2024T15:00:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Case/login' successfully
+
+28-02-2024T15:00:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/buttonAddAccount"), 5, STOP_ON_FAILURE)): Berhasil login dan object buttonAddAccount ditemukan
+
+28-02-2024T15:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/buttonAddAccount' is present
+
+28-02-2024T15:00:54 - [MESSAGE][INFO] - Berhasil login dan object buttonAddAccount ditemukan
+
+28-02-2024T15:00:54 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/buttonMakePayment"), 5, STOP_ON_FAILURE)): Berhasil login dan object buttonMakeAppoinment ditemukan
+
+28-02-2024T15:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/buttonMakePayment' is present
+
+28-02-2024T15:00:54 - [MESSAGE][INFO] - Berhasil login dan object buttonMakeAppoinment ditemukan
+
+28-02-2024T15:00:54 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/labelFinancialOverview"), 5, STOP_ON_FAILURE)): Berhasil login dan object labelFinancialOverview ditemukan
+
+28-02-2024T15:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/labelFinancialOverview' is present
+
+28-02-2024T15:00:54 - [MESSAGE][INFO] - Berhasil login dan object labelFinancialOverview ditemukan
+
+28-02-2024T15:00:54 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/labelRecentTransactions"), 5, STOP_ON_FAILURE)): Berhasil login dan object labelRecentTransactions ditemukan
+
+28-02-2024T15:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/labelRecentTransactions' is present
+
+28-02-2024T15:00:54 - [MESSAGE][INFO] - Berhasil login dan object labelRecentTransactions ditemukan
+
+28-02-2024T15:00:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:00:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC-002_loginWithSpecialCharacter" time="9.26" classname="Test Cases/Main Test Cases/TC-002_loginWithSpecialCharacter" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:00:55 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC-002_loginWithSpecialCharacter: Test Cases/Main Test Cases/TC-002_loginWithSpecialCharacter
+
+28-02-2024T15:00:55 - [TEST_STEP][PASSED] - openBrowser(siteURL): Browser is opened with url: 'https://demo.applitools.com/'
+
+28-02-2024T15:00:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2024T15:00:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:00:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.applitools.com/'
+
+28-02-2024T15:00:59 - [TEST_STEP][PASSED] - username = "coba123!$%^&": null
+
+28-02-2024T15:00:59 - [TEST_STEP][PASSED] - password = "passwordcoba123!$%^&": null
+
+28-02-2024T15:00:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Common Test Case/login"), ["Username":username, "Password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Case/login' successfully
+
+28-02-2024T15:00:59 - [TEST_CASE][PASSED] - Test Cases/Common Test Case/login: Test Cases/Common Test Case/login
+
+28-02-2024T15:00:59 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME Demo App by Applitools/buttonSignIn"), 5, STOP_ON_FAILURE)): sudah b
+
+28-02-2024T15:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME Demo App by Applitools/buttonSignIn' is present
+
+28-02-2024T15:00:59 - [MESSAGE][INFO] - sudah b
+
+28-02-2024T15:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/inputUsername"), Username): Text 'coba123!$%^&' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputUsername'
+
+28-02-2024T15:01:00 - [MESSAGE][PASSED] - Text 'coba123!$%^&' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputUsername'
+
+28-02-2024T15:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/inputPassword"), Password): Text 'passwordcoba123!$%^&' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputPassword'
+
+28-02-2024T15:01:01 - [MESSAGE][PASSED] - Text 'passwordcoba123!$%^&' is set on object 'Object Repository/Page_ACME Demo App by Applitools/inputPassword'
+
+28-02-2024T15:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME Demo App by Applitools/buttonSignIn")): Object: 'Object Repository/Page_ACME Demo App by Applitools/buttonSignIn' is clicked on
+
+28-02-2024T15:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME Demo App by Applitools/buttonSignIn' is clicked on
+
+28-02-2024T15:01:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Case/login' successfully
+
+28-02-2024T15:01:02 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/buttonAddAccount"), 5, STOP_ON_FAILURE)): Berhasil login dan object buttonAddAccount ditemukan
+
+28-02-2024T15:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/buttonAddAccount' is present
+
+28-02-2024T15:01:03 - [MESSAGE][INFO] - Berhasil login dan object buttonAddAccount ditemukan
+
+28-02-2024T15:01:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/buttonMakePayment"), 5, STOP_ON_FAILURE)): Berhasil login dan object buttonMakeAppoinment ditemukan
+
+28-02-2024T15:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/buttonMakePayment' is present
+
+28-02-2024T15:01:03 - [MESSAGE][INFO] - Berhasil login dan object buttonMakeAppoinment ditemukan
+
+28-02-2024T15:01:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/labelFinancialOverview"), 5, STOP_ON_FAILURE)): Berhasil login dan object labelFinancialOverview ditemukan
+
+28-02-2024T15:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/labelFinancialOverview' is present
+
+28-02-2024T15:01:03 - [MESSAGE][INFO] - Berhasil login dan object labelFinancialOverview ditemukan
+
+28-02-2024T15:01:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/labelRecentTransactions"), 5, STOP_ON_FAILURE)): Berhasil login dan object labelRecentTransactions ditemukan
+
+28-02-2024T15:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/labelRecentTransactions' is present
+
+28-02-2024T15:01:04 - [MESSAGE][INFO] - Berhasil login dan object labelRecentTransactions ditemukan
+
+28-02-2024T15:01:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:01:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-02-2024T15:00:45 - [TEST_SUITE][PASSED] - Login: Test Cases/Main Test Cases/TC-002_loginWithSpecialCharacter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
