@@ -25,41 +25,41 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('D:\\.MiTechBootcamp\\FinalProject\\finalProject3\\Resource\\matahari-mobile.apk', true)
 
 // taskbar User
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup'), 0)
 
 Mobile.scrollToText('KELUAR')
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/LogOut/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (5)'), 0)
 
 // button login
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (1)'), 0)
 
 //login
-Mobile.setText(findTestObject('Object Repository/Mobile Object/android.widget.EditText - Nomor Handphone  Email'), 'nlinaatqia@gmail.com', 
+Mobile.setText(findTestObject('Object Repository/Mobile Object/Matahari Object/android.widget.EditText - Nomor Handphone  Email'), 'nlinaatqia@gmail.com', 
     0)
 
-Mobile.setEncryptedText(findTestObject('Object Repository/Mobile Object/android.widget.EditText - Password (minimal 8 karakter)'), 
+Mobile.setEncryptedText(findTestObject('Object Repository/Mobile Object/Matahari Object/android.widget.EditText - Password (minimal 8 karakter)'), 
     'WSmJuFV16eUFrlXGuZtLcw==', 0)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (2)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (3)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (3)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.widget.TextView - Wanita'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.widget.TextView - Wanita'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.widget.ImageView (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (4)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (6)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (6)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (7)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (7)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile Object/android.view.ViewGroup (8)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile Object/Matahari Object/android.view.ViewGroup (8)'), 0)
 
 Mobile.takeScreenshot('D:\\.MiTechBootcamp\\FinalProject\\finalProject3\\Resource\\screenshot.png')
 

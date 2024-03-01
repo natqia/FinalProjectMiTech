@@ -1,0 +1,22 @@
+======================================================
+           PENJELASAN PERFORMANCE TEST
+======================================================
+
+tools yang digunakan: apache-jmeter-5.6.3
+laman sumber: https://documenter.getpostman.com/view/4012288/TzK2bEa8
+
+tujuan yang ingin dicapai:
+1. Melakukan test pada method GET User Profile dan GET Contact List
+2. Mencapai ~20RPS dengan rincian:
+   - Tested API: 2 method
+   - Threads: 200 user
+   - Ramp-up period: 20 detik
+3. Untuk semua method ditetapkan standar response time selama 3000 millisecods atau 3 detik
+4. Untuk semua method ditetapkan status response code yang diharapkan adalah 200 atau 200OK
+
+hasil yang diperoleh (sumber: //finalReport/index.html)
+1. Dari total 400 hit terdapat 36 hit atau 9% yang gagal memenuhi tujuan poin 3 dan 4
+2. Dari 36 hit terdapat 33 hit yang response time-nya melebihi 3000 milliseconds. 31 hit-nya berasal dari GET User Profile
+3. Dan terdapat 3 hit GET User Profile yang tidak bisa memberikan response code 200 
+dengan tipe error (Non HTTP response code: java.net.SocketException/Non HTTP response message: Connection reset)
+diduga karena terdapat error pada SSL Socket
