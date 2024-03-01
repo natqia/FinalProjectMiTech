@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>a0fa53db-3eea-481a-835b-1f5d349e0d0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.logo > img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://www.matahari.com/static/version1708796940/frontend/Matahari/matahari-child/id_ID/images/logo.svg']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='html-body']/div[2]/header/div[2]/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>48b330b6-0a79-44b0-985c-fdaac6e69fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.matahari.com/static/version1708796940/frontend/Matahari/matahari-child/id_ID/images/logo.svg</value>
+      <webElementGuid>fd007a20-3a95-48e0-94b7-335154576692</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>170</value>
+      <webElementGuid>7a5cd1b2-c0b4-4322-914a-895fa2fcc5f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;html-body&quot;)/div[@class=&quot;page-wrapper&quot;]/header[@class=&quot;page-header&quot;]/div[@class=&quot;header content&quot;]/a[@class=&quot;logo&quot;]/img[1]</value>
+      <webElementGuid>d56bf95a-fa86-4501-9a5c-9575ab962949</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='html-body']/div[2]/header/div[2]/a/img</value>
+      <webElementGuid>0fb11d22-2a24-4d9b-b5e8-57e8df8708cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://www.matahari.com/static/version1708796940/frontend/Matahari/matahari-child/id_ID/images/logo.svg')]</value>
+      <webElementGuid>007dabc1-f24f-4000-a91c-203bca4ba1bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+      <webElementGuid>bf292aa3-788d-4672-b7c2-dd34cb64cef7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://www.matahari.com/static/version1708796940/frontend/Matahari/matahari-child/id_ID/images/logo.svg']</value>
+      <webElementGuid>d303e072-719c-47be-8294-bfd03c86f5d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

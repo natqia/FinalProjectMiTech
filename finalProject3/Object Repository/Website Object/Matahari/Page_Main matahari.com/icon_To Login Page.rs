@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_To Login Page</name>
+   <tag></tag>
+   <elementGuidId>f2b065fb-26dd-4cf5-9792-9c16b56be9e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='html-body']/div[3]/header/div[2]/div[6]/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.svg-mthr-users-profile</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'svg-mthr-users-profile']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ce8ba5d1-4f3a-4466-8f21-b034665f7ea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-mthr-users-profile</value>
+      <webElementGuid>2d897ec8-634d-4eda-8ad3-354c3973216a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;html-body&quot;)/div[@class=&quot;page-wrapper&quot;]/header[@class=&quot;page-header&quot;]/div[@class=&quot;header content&quot;]/div[@class=&quot;icon-link profil&quot;]/div[1]/a[@class=&quot;navbar-link authorization-link&quot;]/span[@class=&quot;svg-mthr-users-profile&quot;]</value>
+      <webElementGuid>ab22d16a-d30b-4adf-a233-d68ed46fb922</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='html-body']/div[3]/header/div[2]/div[6]/div/a/span</value>
+      <webElementGuid>d5467a0b-cbf8-4450-8ea1-e075759fe717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/a/span</value>
+      <webElementGuid>82c95b52-0584-4999-a150-22982bf7b1d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
